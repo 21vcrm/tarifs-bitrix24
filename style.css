@@ -1,12 +1,22 @@
 .montserrat-tarifs-start {
     font-family: Montserrat;
+    display: flex;
+    flex-wrap: wrap;
 }
 .tarif-start {
     border: 1px solid grey;
     border-radius: 5px;
     margin: 5px 0;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    width: 600px;
 }
 .a-tarif-start {
     text-decoration: none;
     color: black;
+}
+.img-tarif-start {
+    width: 100px;
+    padding: 30px;
 }
