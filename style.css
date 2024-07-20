@@ -6,17 +6,24 @@
 .tarif-start {
     border: 1px solid grey;
     border-radius: 5px;
-    margin: 5px 0;
+    margin: 5px;
     display: flex;
     align-items: center;
     padding-right: 30px;
     width: 600px;
+    transition: 500ms;
+}
+.tarif-start:hover {
+    background-color: rgba(218, 218, 218, 0.586);
 }
 .a-tarif-start {
     text-decoration: none;
     color: black;
 }
+.a-conteiner-tarif-start {
+    margin-top: -80px;
+}
 .img-tarif-start {
-    width: 100px;
+    width: 150px;
     padding: 30px;
 }
